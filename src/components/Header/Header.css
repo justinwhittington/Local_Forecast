@@ -1,0 +1,19 @@
+.logo {
+    height: 20px;
+}
+
+.NavHeader {
+    background-image: linear-gradient(to right, #f45fe7, #67aff0, #6f45f3);
+  font-family: "Montserrat", sans-serif;
+}
+
+#navSearch {
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:481px){
+    #navSearch {
+        display: none;
+    }
+}

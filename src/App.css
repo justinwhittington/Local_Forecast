@@ -1,32 +1,41 @@
-.App {
-  text-align: center;
+html, body {
+  width: 100%;
+  height: 100%;
+  background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/green_dust_scratch.png');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+/* #appDiv {
+  width: 100%;
+  height: 100%;
+} */
+
+h1 {
+  padding: 15px;
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.centered{
+  margin: auto;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.submit {
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .centerHorizontal {
+  display: flex;
+  justify-content: center;
+} */
+
+@media(max-width:481px){  
+  .centerHorizontal {
+      margin-left: auto;
+      margin-right: auto;
+  } 
 }

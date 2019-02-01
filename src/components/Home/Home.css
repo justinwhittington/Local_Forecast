@@ -1,0 +1,25 @@
+#homeSearch {
+    width: 20%;
+    /* height: 30%; */
+     margin-top: 13%; 
+    background: transparent;
+}
+
+@media(max-width:481px){
+    #homeSearch {
+        margin-top: 10%;
+    }
+}
+@media(max-width:676px){
+    #homeSearch {
+        margin-top: 40%;
+    }
+}
+@media(max-width:1000px){
+    #homeSearch {
+        margin-top: 50%;
+    }
+}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}

@@ -7,7 +7,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router id="height100">
         <div id="appDiv">
           <Header />
           <Route path="/" exact={true} component={Home} />

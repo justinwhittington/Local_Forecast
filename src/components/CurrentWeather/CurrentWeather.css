@@ -1,0 +1,33 @@
+
+.button {
+    margin: 20px;
+    background-color: #ee633c;
+    color: white;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #9daef5;
+    box-shadow: 6px 5px 24px #666666;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #2079b0;
+    text-decoration: none;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+#homeSearch {
+    width: 20%;
+     height: 100%; 
+     /* margin-top: 13%;  */
+    background: transparent;
+}
+
+#header {
+    color: white;
+  }

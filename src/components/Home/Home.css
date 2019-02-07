@@ -1,9 +1,10 @@
-#homeSearch {
-    width: 20%;
-    /* height: 30%; */
-     margin-top: 13%; 
-    background: transparent;
-}
+
+
+/* .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    
+} */
 
 @media(max-width:481px){
     #homeSearch {
